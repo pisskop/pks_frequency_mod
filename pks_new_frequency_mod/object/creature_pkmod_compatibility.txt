@@ -1,0 +1,62 @@
+creature_pkmod_compatibility
+
+This file defines the creatures added by pks mod, so that they dont throw errors when not using that mod in conjunction with this mod.
+It is intended to have no effect when not using both mods.
+
+[OBJECT:CREATURE]
+
+
+[CREATURE:KAIJU]						-megabeast-
+[CREATURE:TYRANNUS]						-semi megabeast-
+[CREATURE:IT]							-semi megabeast-
+[CREATURE:HOLISTIC]						-unique demon-
+
+[CREATURE:GOBLIN_PK]					-entity creature-
+[CREATURE:ELF_PK]						-entity creature-
+[CREATURE:MERLOCK]						-entity creature-
+[CREATURE:KLAXXON]						-entity creature-
+[CREATURE:ALTAINEN]						-entity creature-
+
+[CREATURE:BOMB]							-does not exist-
+[CREATURE:SCORPION_DESERT_GIANT]		-does not exist-
+[CREATURE:ELPIDAEMON]					-does not exist-
+
+
+[CREATURE:CACCODEMON]								-cavern3, can bite through armor-
+	[APPLY_CREATURE_VARIATION:C_FREQ_4_INFREQUENT]
+
+[CREATURE:SHRAT]									-very large, quite strong-
+	[APPLY_CREATURE_VARIATION:C_FREQ_7_EASTEREGG]
+
+[CREATURE:DIONAEA]									-slow moving tropical wet-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[CREATURE:MAMMOTH]									-mammoth-
+	[APPLY_CREATURE_VARIATION:C_FREQ_4_INFREQUENT]
+
+[CREATURE:BOAR_SLUGSNOUT]							-boar that spits lead-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[CREATURE:WILL-O-THE-WISP]							-marsh sleepy high dodge-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[CREATURE:INNOCENT_DEVIL]							-gremlin but more, and anywhere-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[CREATURE:INNOCENT_DEVIL_NOT]						-big gremlin but also anywhere-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[CREATURE:BEAR_GRUMBLE]								-snorlax/slumberling-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+
+
+[CREATURE:FAIRY_GIANT]								-fully sentient flying good-
+	[APPLY_CREATURE_VARIATION:C_FREQ_4_INFREQUENT]
+
+[CREATURE:GNAT_BLOOD_GIANT]							-raccoon sized mosquito, runs in packs-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[CREATURE:LOBSTER_CAVE_GIANT]						-big cave lobster-
+	[APPLY_CREATURE_VARIATION:C_FREQ_4_INFREQUENT]
+

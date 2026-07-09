@@ -1,0 +1,229 @@
+creature_pk_vfreq_1_ubiquitous
+
+*The purpose of these files are to change the frequencies of all vanilla animals to meet my own standards.*
+*This file is for critters who possess the ubiquitous tag*
+*A good candidate for this file:  vermin, keystone species, small birds, harassment animals*
+*default is 80 freq, plus the -ubiquitous tag-*
+
+[OBJECT:CREATURE]
+
+
+***VERMIN***
+
+
+[SELECT_CREATURE:ANT]
+	[APPLY_CREATURE_VARIATION:C_FREQ_1_UBIQ]
+
+[SELECT_CREATURE:BEETLE]
+	[APPLY_CREATURE_VARIATION:C_FREQ_1_UBIQ]
+
+[SELECT_CREATURE:FLY]
+	[APPLY_CREATURE_VARIATION:C_FREQ_1_UBIQ]
+
+[SELECT_CREATURE:GRASSHOPPER]
+	[APPLY_CREATURE_VARIATION:C_FREQ_1_UBIQ]
+
+[SELECT_CREATURE:LOUSE]
+	[APPLY_CREATURE_VARIATION:C_FREQ_1_UBIQ]
+
+[SELECT_CREATURE:MOSQUITO]
+	[APPLY_CREATURE_VARIATION:C_FREQ_1_UBIQ]
+
+[SELECT_CREATURE:MOTH]
+	[APPLY_CREATURE_VARIATION:C_FREQ_1_UBIQ]
+
+[SELECT_CREATURE:TERMITE]-
+	[APPLY_CREATURE_VARIATION:C_FREQ_1_UBIQ]
+
+[SELECT_CREATURE:THRIPS]-
+	[APPLY_CREATURE_VARIATION:C_FREQ_1_UBIQ]
+
+[SELECT_CREATURE:TICK]	-
+	[APPLY_CREATURE_VARIATION:C_FREQ_1_UBIQ]
+
+[SELECT_CREATURE:SPARROW]										-not ubiquitous in vanilla-
+	[APPLY_CREATURE_VARIATION:C_FREQ_1_UBIQ]
+
+[SELECT_CREATURE:SPIDER_CAVE]									-not ubiquitous in vanilla-	-this gives them a 80 freq- -I plan to add more creatures underground-
+	[APPLY_CREATURE_VARIATION:C_FREQ_1_UBIQ]
+	[CV_REMOVE_TAG:UBIQUITOUS]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+[SELECT_CREATURE:LEECH]											-not ubiquitous in vanilla-	-this gives them a 80 freq-
+	[APPLY_CREATURE_VARIATION:C_FREQ_1_UBIQ]
+	[CV_REMOVE_TAG:UBIQUITOUS]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+[SELECT_CREATURE:BAT]											-not ubiquitous in vanilla-
+	[APPLY_CREATURE_VARIATION:C_FREQ_1_UBIQ]
+
+[SELECT_CREATURE:WORM]											-not ubiquitous in vanilla-
+	[APPLY_CREATURE_VARIATION:C_FREQ_1_UBIQ]
+
+[SELECT_CREATURE:MUSSEL]										-not ubiquitous in vanilla-
+	[APPLY_CREATURE_VARIATION:C_FREQ_1_UBIQ]
+
+[SELECT_CREATURE:LIZARD]										-not ubiquitous in vanilla-
+	[APPLY_CREATURE_VARIATION:C_FREQ_1_UBIQ]
+
+[SELECT_CREATURE:SQUID]											-not ubiquitous in vanilla-
+	[APPLY_CREATURE_VARIATION:C_FREQ_1_UBIQ]
+
+[SELECT_CREATURE:RAT_DEMON]										-not ubiquitous in vanilla-		-evil, found almost anywhere, will chew through bins to get to food-
+	[APPLY_CREATURE_VARIATION:C_FREQ_1_UBIQ]
+
+[SELECT_CREATURE:RAT]											-not ubiquitous in vanilla-
+	[APPLY_CREATURE_VARIATION:C_FREQ_1_UBIQ]
+
+[SELECT_CREATURE:FISH_CAVE]										-not ubiquitous in vanilla-	-this gives them a 80 freq- -I plan to add more creatures underground-
+	[APPLY_CREATURE_VARIATION:C_FREQ_1_UBIQ]
+	[CV_REMOVE_TAG:UBIQUITOUS]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+[SELECT_CREATURE:SNAKE_FIRE]									-not ubiquitous in vanilla-		-variety is so low in magma it probably will never matter-		-magma, cave 2-4-
+	[APPLY_CREATURE_VARIATION:C_FREQ_1_UBIQ]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:UNDERGROUND_DEPTH]
+		[CVCT_TARGET:2:4]										-intended to show up anywhere natural magma spawns, except the surface-
+		[CVCT_REPLACEMENT:1:5]
+		[CV_NEW_TAG:SAVAGE]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+[SELECT_CREATURE:LIZARD_RHINO_TWO_LEGGED]						-not ubiquitous in vanilla, rather just 100 freq and any land-	-savage, any land-
+	[APPLY_CREATURE_VARIATION:C_FREQ_1_UBIQ]
+
+
+***REGULAR ANIMALS***
+
+
+[SELECT_CREATURE:CRAB]											-not ubiquitous in vanilla-		-100 freq in vanilla-		-any ocean-
+	[APPLY_CREATURE_VARIATION:C_FREQ_1_UBIQ]
+
+[SELECT_CREATURE:CRUNDLE]										-not ubiquitous in vanilla-	-this gives them a 80 freq- -I plan to add more creatures underground-	-cavern 2 and 3-
+	[APPLY_CREATURE_VARIATION:C_FREQ_1_UBIQ]
+	[CV_REMOVE_TAG:UBIQUITOUS]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+[SELECT_CREATURE:GREMLIN]										-not ubiquitous in vanilla-	-this gives them a 80 freq- -I plan to add more creatures underground-	-cavern 1, 2, and 3-
+	[APPLY_CREATURE_VARIATION:C_FREQ_1_UBIQ]
+	[CV_REMOVE_TAG:UBIQUITOUS]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+[SELECT_CREATURE:RAT_LARGE]										-not ubiquitous in vanilla-	-this gives them a 80 freq- -I plan to add more creatures underground-	-cavern 1-
+	[APPLY_CREATURE_VARIATION:C_FREQ_1_UBIQ]
+	[CV_REMOVE_TAG:UBIQUITOUS]
+	[CV_NEW_TAG:CLUSTER_NUMBER:1:4]								-large rats lack a cluster tag, showing up alone-
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:POPULATION_NUMBER]
+		[CVCT_TARGET:10:20]
+		[CVCT_REPLACEMENT:25:50]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+[SELECT_CREATURE:MAGMA_CRAB]									-not ubiquitous in vanilla-		-100 freq in vanilla-		-magma, 3rd cavern and lower-
+	[APPLY_CREATURE_VARIATION:C_FREQ_1_UBIQ]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:UNDERGROUND_DEPTH]
+		[CVCT_TARGET:3:5]										-intended to spawn anywhere with magma, except the exposed open air-
+		[CVCT_REPLACEMENT:1:5]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+
+
+***FANTASTICAL CREATURES***
+-Argue however you want, these are probably meant as treats for experienced players rather than fantastical parts of the game-
+-Aquatic creatures currently do not spawn correctly, I doubt youd naturally get them to come no matter what I set-
+
+
+[SELECT_CREATURE:SEA_MONSTER]									-no freq in vanilla-	-any ocean-		-pop number 1:1-	-genderless-	-evil-		-aquatic-	-ocean spawns are broken anyway, I doubt anyone has naturally seen one in years-
+	[APPLY_CREATURE_VARIATION:C_FREQ_1_UBIQ]
+	[CV_REMOVE_TAG:UBIQUITOUS]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:POPULATION_NUMBER]
+		[CVCT_TARGET:1:1]
+		[CVCT_REPLACEMENT:1:3]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+[SELECT_CREATURE:SEA_SERPENT]									-no freq in vanilla-	-any ocean--	-savage-	-aquatic-	-ocean spawns are broken anyway, I doubt anyone has naturally seen one in years-
+	[APPLY_CREATURE_VARIATION:C_FREQ_1_UBIQ]
+	[CV_REMOVE_TAG:UBIQUITOUS]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:POPULATION_NUMBER]
+		[CVCT_TARGET:1:1]
+		[CVCT_REPLACEMENT:1:3]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+[SELECT_CREATURE:MERPERSON]										-100 freq in vanilla-	-any ocean-		-good-
+	[APPLY_CREATURE_VARIATION:C_FREQ_1_UBIQ]
+	[CV_REMOVE_TAG:UBIQUITOUS]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+
+***CAVE-TRIBE ANIMAL MEN***
+
+
+-SELECT_CREATURE:AMPHIBIAN_MAN-									-100 freq in vanilla-	-wet caverns-	-not touching due to cave tribes-
+
+-SELECT_CREATURE:ANT_MAN-										-100 freq in vanilla-	-dry caverns-	-not touching due to cave tribes-
+
+-SELECT_CREATURE:BAT_MAN-
+
+-SELECT_CREATURE:CAVE_SWALLOW_MAN-
+
+-SELECT_CREATURE:OLM_MAN-
+
+-SELECT_CREATURE:CAVE_FISH_MAN-									-appear to have legs-
+
+-SELECT_CREATURE:RODENT MAN-
+
+-SELECT_CREATURE:REPTILE_MAN-									-low key my favorite cavern tribal, ants are cool for their gimmick too-
+
+-SELECT_CREATURE:SERPENT_MAN-
+
+
+***SEMIS AND MEGAS***
+
+
+-SELECT_CREATURE:MINOTAUR-										-has biome data, no spawning outside of its semi-mega-
+
+-SELECT_CREATURE:CYCLOPS-
+
+-SELECT_CREATURE:ETTIN-
+
+-SELECT_CREATURE:HYDRA-
+
+-SELECT_CREATURE:GIANT-
+
+-SELECT_CREATURE:COLOSSUS_BRONZE-								-I am pain I am grave-
+
+-SELECT_CREATURE:BIRD_ROC-
+
+-SELECT_CREATURE:DRAGON-
+
+
+***COMMON DOMESTICS w/no biome data***
+
+
+-SELECT_CREATURE:CAT-											-no freq in vanilla-	-no biome in vanilla-	-feral cats would be reasonably somewhat common, but I dont want to flood the game with innane spawns-
+	-APPLY_CREATURE_VARIATION:C_FREQ_7_EASTEREGG-
+	-BIOME:ALL_MAIN-
+	
+-SELECT_CREATURE:SHEEP-											-no freq in vanilla-	-common domestic-	-no pop or biome data-		-sheep are not particularly viable outside of human livestocking-
+
+-SELECT_CREATURE:MULE-											-no freq in vanilla-	-common domestic-	-no pop or biome data-		-all mules are male in the game-
+
+-SELECT_CREATURE:COW-											-while some cows probably could go feral and be fine, the average american image of 'cow' as a huge uddered female grazer, wouldnt.-		-something like a longhorn probably would be fine-
+
+-SELECT_CREATURE:DOG-													-no freq in vanilla-		-no biome in vanilla-	-common domestic-	-no cluster or pop data-
+	-APPLY_CREATURE_VARIATION:C_FREQ_4_INFREQUENT-
+	-BIOME:ALL_MAIN-
+	-POPULATION_NUMBER:10:20-
+	-CLUSTER_NUMBER:1:8-
+
+-SELECT_CREATURE:BIRD_GUINEAFOWL-								-is given wild data by me in this mod-
+
+-SELECT_CREATURE:BIRD_CHICKEN-									-is given wild data by me in this mod-
+
+-SELECT_CREATURE:DONKEY-										-is given wild data by me in this mod-
+
+-SELECT_CREATURE:GOAT-											-is given wild data by me in this mod-
+

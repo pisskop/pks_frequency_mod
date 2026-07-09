@@ -1,0 +1,53 @@
+frequency modding
+
+07JUL2026
+***the stated aim is to make less-seen animals spawn more and more-seen animals spawn less; by changing frequency.  On a case by case basis biome, cluster size, population number and savage or ubiquitous tags may be changed.***
+
+*Creatures have biomes, alignment, frequency, population, and cluster data.*
+	- Biomes determine which biomes they live in.  There are many, aquatic, above ground, and below ground.  Some biomes appear within other biomes, such as magma pipes and murky pools.
+	- Alignment determines if the creature is exclusively associated with good or evil biomes.  This doesnt inherently make the animal hostile or friendly, and an animal is always associated with good, neutral, or evil.
+		- Entites work differently, and can associate across alignment.
+		- Good and Evil creatures will have an epicenter in all valid good and evil biomes, thus always being placed on the list to roll a D100 to be picked as a locally present creature.
+	- Population controls the local population, at the fortress level.  If an animal is present, it will be assigned a number between their minimum and maximum population numbers, and once depleted will no longer spawn in that fort.
+		- This is not world or even regional population, just local fortress.
+	- Cluster is the size of packs they spawn with.  Some animals spawn alone in 1:1 packs.  Some spawn in small packs.  Some spawn in masssive packs.
+	- Frequency determines many things about the rarity of a creature simultaneously.  It sets their range, their likihood to be picked for a local fortress population, and how often they spawn on a local map.
+		- Range is how far from their 'epicenter' a creature is allowed to spawn normally.  Generally, it's quickest to imagine it as a percentage of the map.  100 freq is the whole map.  50 is half (in either direction, it's radius). 5 freq is 5%.
+			- All creatures are given an epicenture, independent of where their natural biomes are.  A rare aquatic creature can epicenter in the middle of a mountain, thus never spawning unless forced to.
+			- 'Ubiquitous' creatures have epicenters on every tile.
+		- When a biome needs local populations, it picks 7 creatures of each 'type' off the list at random and rolls a D100.  If the result is =>freq than the creature is used.  If the list is exhausted but slots remain, the game will search for the closest valid creature not in range and force a roll for them.  Repeat as needed.
+			- 'Ubiquitous' creatures can never fail this D100, and will always be used if picked off the list.
+		- Presumably creatures that are local to a map will roll against one another to see which of them will spawn when a spawning occurs.  Higher frequency means spawning more often.
+	- Any 'savage' creature will only spawn in the savage versions of the biome they are allowed to spawn in.
+
+
+*** This mod will not touch any of the cavern 'tribal' animal men.***
+***This mod will independently establish the rarity of giant and man versions of creatures***
+
+***This mod works by creating creature variations and applying them to creatures that already exist.  Individual creatures may have further tweaking done to their cluster, biome, frequency, pop number***
+
+
+- NOTES used to frame the mod -
+
+-ubiquitous=ubiquitous token(80, locus every tile)					-vermin, something that harangs the player, an irreplacable keystone species
+-everywhere=70														-super common wildlife, vermin 
+-common=60															-prey animals, birds, small game
+-infrequent=50														-pack prey animals, many solitary predators, horse sized animals
+-rare=40															-pack predators, large prey animals, specialized animals such as kangaroo, playpus, etc.
+-mythical=30														-enormous prey, large predators, incredibly deadly 'normal' animals, fantasical creature, low pop creatures, etc
+-easter egg=20														-low population critters, creatures that are fantastical in the extreme but not regulated by other spawn methods
+-easteregg-man=15													-rare animals animal men versions.
+
+-animal men will be about 3 tiers lover than their parent base creature-
+-cavern tribal animal men will not be altered at all-
+-rare animal men will be capped on the lower end at 15 freq to give them a real shot at showing up.-
+
+-giant animals will aim to be 2 tiers of rarity lower than the base animal-
+-no floor on frequency-
+
+
+TAKEAWAYS:
+
+-forcing all creature frequencies down results in some janky animal pops, in one case a biome had no native aboveground fauna (although I couldnt replicate that).-
+-creating spawning of common domestics seemed to require the entities to have access to those pops.  Having no wild spawns seems to allow any entity to access that creature.-
+-animal men in particular can sometimes 'run away' with the population base, filling most niches.  since they cant be eaten as normal its a small problem to be wary of, corrected mostly by 'stretching out' the frequency distribuition.-

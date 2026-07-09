@@ -1,0 +1,388 @@
+creature_pk_vfreq_3_common
+
+*The purpose of these files are to change the frequencies of all vanilla animals to meet my own standards.*
+*This file is for critters who are normal creatures found everywhere*
+*Good Candidates: large packs of small animals, small packs of prey animals, small predators, something that is present in small variations (snow fox versus red tail fox, trout versus salmon, etc)*
+*default is 60 freq*
+
+[OBJECT:CREATURE]
+
+
+***VERMIN***
+
+
+[SELECT_CREATURE:MANTIS]
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:BIRD_RW_BLACKBIRD]
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:BIRD_LOVEBIRD_PEACH-FACED]
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:PIXIE]	
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:FAIRY]										-fairies can spawn near-anywhere, so long as its good-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:CHAMELEON]
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:HAMSTER]
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:AXOLOTL]
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:FISH_RAY_BAT]
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:FISH_LOACH_CLOWN]
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:FISH_CLOWNFISH]
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:SQUIRREL_FLYING]
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:FISH_HAGFISH]
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:FISH_HERRING]								-HUGE clusters-	-double local pop numbers-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:OLM]
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:FISH_MOLLY_SAILFIN]
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:FISH_SEAHORSE]
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:FISH_RATFISH_SPOTTED]
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:FISH_RAY_THORNBACK]
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:FISH_RATFISH_SPOTTED]
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:FISH_PUFFER_WHITE_SPOTTED]
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:NAUTILUS]
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:LION_TAMARIN]							-definitely a specialist, however only found in wet jungles-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:HEDGEHOG]
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:MAGGOT_PURRING]
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:WAMBLER_FLUFFY]						-good, any biome-	-largest vermin-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:FOXSQUIRREL]							-Temperate forests-		-largest vermin-	-freq 25 in vanilla-	-most valuable vermin pet-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+
+***Normal Animals***
+
+
+[SELECT_CREATURE:MINK]									-very small-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:WEASEL]								-very small-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:BIRD_OWL_BARN]							-very small-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:BIRD_PUFFIN]							-very small-	-artic ocean only-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:CAVY]									-very small-	-common domestic-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:BIRD_KEA]								-may produce 0 meat-	-item theives-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:BIRD_GUINEAFOWL]						-may produce 0 meat-	-common domestic-		-not actually given a biome, presumably is never wild-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+	[BIOME:SAVANNA_TROPICAL]							-wiki says theyre native to sub-saharan africa, where they follow packs of herbivores and eat pests, maggots, and other insects out of their droppings-	-they can nest in trees naturally-
+	[BIOME:SHRUBLAND_TROPICAL]
+	[BIOME:GRASSLAND_TROPICAL]
+ 	[BIOME:DESERT_BADLAND]									-semi-deserts-
+	[CLUSTER_NUMBER:3:8]
+	[POPULATION_NUMBER:15:30]
+
+[SELECT_CREATURE:KINGSNAKE]								-affected by most venoms-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:BIRD_PENGUIN_LITTLE]					-artic oceans-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:GILA_MONSTER]							-desert-	-amphibious-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:BIRD_OWL_GREAT_HORNED]					
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:BIRD_OWL_SNOWY]						-only tundra-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:BIRD_HORNBILL]							-tropical forest-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:BIRD_CHICKEN]							-common domestic-		-not actually given a biome, presumably is never wild-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+	[BIOME:ANY_TROPICAL_FOREST]							-asian junglefowl-
+	[BIOME:MARSH_TROPICAL_FRESHWATER]
+	[BIOME:SWAMP_TROPICAL_FRESHWATER]
+	[CLUSTER_NUMBER:3:8]
+	[POPULATION_NUMBER:15:30]
+
+[SELECT_CREATURE:MONGOOSE]								-tropical savanna and shrubland-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:OPOSSUM]
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:BIRD_STORK_WHITE]
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:BIRD_PEAFOWL_BLUE]						-common domestic-		-tropical jungles-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:BIRD_PENGUIN]							-no frequency in vanilla-	-artic oceans-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:SKUNK]
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:HUNGRY_HEAD]							-3rd cavern-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:TROGLODYTE]							-100 freq in vanilla-	-cavern 1 and 2-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:OCTOPUS]								-100 freq in vanilla-		-any ocean-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:BIRD_TURKEY]							-common domestic-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:IMP_FIRE]								-20 freq in vanilla-		-magma, 0-4-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:FOX]									-no freq in vanilla-		-any temperate forest and taiga-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:BIRD_LOON]								-all lakes-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:RATTLESNAKE]							-50 freq in vanilla-		-biome: not freezing-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:HONEY BADGER]							-no freq in vanilla-		-tropical plains, tropical wetlands, desert, tropical forest-	-food thief, prone to rage-		-females smaller than males-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:BIRD_VULTURE]							-no freq in vanilla-		-tropical savanna/grassland, desert-	-food thief-	-cluster of 5-10-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:POPULATION_NUMBER]
+		[CVCT_TARGET:15:30]
+		[CVCT_REPLACEMENT:20:40]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+[SELECT_CREATURE:MARMOT_HOARY]							-no freq in vanilla-		-only mountains-	-small packs-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:FISH_MILKFISH]							-no freq in vanilla-		-most rivers and oceans-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:RIVER OTTER]							-no freq in vanilla-		-all rivers, lakes, and oceans-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:BIRD_SWAN]								-no freq in vanilla-		-temperate marsh and lake-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:SHARK_ANGEL]							-no freq in vanilla-		-temperate and tropical ocean-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:BADGER]								-no freq in vanilla-		-temperate plains, forest, and taiga-		-prone to rage-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:COYOTE]								-no freq in vanilla-		-many biomes-	-a case of making this one more common-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:FISH_GAR_LONGNOSE]						-no freq in vanilla-		-temperate rivers and lakes-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:WOMBAT]								-no freq in vanilla-		-mountain, temperate forest/shrubland-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:SNAPPING TURTLE]						-no freq in vanilla-		-temperate rivers and lakes, some pools-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:SEA OTTER]								-no freq in vanilla-		-temperate ocean-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:SHARK_SPINY_DOGFISH]					-no freq in vanilla-		-temperate and tropical ocean-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:FISH_PIKE]								-no freq in vanilla-		-temperate river and lake-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:CAPYBARA]								-no freq in vanilla-		-any wetland-	-2x value-		-bigger than a dog, at 45k-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:AARDVARK]								-no freq in vanilla-		-tropical plains-		-appear alone, pop size 15:30-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:FISH_COD]								-no freq in vanilla-		-artic and temperate ocean-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:IMPALA]								-no freq in vanilla-	-tropical gassland/savanna-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:GOAT_MOUNTAIN]							-no freq in vanilla-	-mountain-		-doesnt produce milk-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:FISH_TIGERFISH]						-no freq in vanilla-	-tropical freshwater river and lake-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:FISH_BARRACUDA_GREAT]					-no freq in vanilla-	-tropical ocean-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:WILD_BOAR]								-no freq in vanilla-	-any forest, plains, or wetland-	-benign in vanilla-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:ANACONDA]								-50 freq in vanilla-	-any tropical wetland-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:FISH_SKATE_COMMON]						-no freq in vanilla-	-temperate and tropical ocean-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:DEER]									-no freq in vanilla-	-temperate forests and taiga-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:HARP_SEAL]								-amphibious-		-artic ocean-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:REINDEER]								-common domestic-	-taiga and tundra- -15-30 pop-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:PYTHON]								-30 freq in vanilla-	-wet jungle-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:TAPIR]									-no freq in vanilla-	-wet jungle-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:SHARK_NURSE]							-no freq in vanilla-	-temperate ocean-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:SPIDER_CAVE_GIANT]						-20 freq in vanilla-	-cave 2-3-		-savage-		-not a giant variation, its own creature-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:POPULATION_NUMBER]
+		[CVCT_TARGET:3:4]
+		[CVCT_REPLACEMENT:5:10]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+[SELECT_CREATURE:BIRD_SWALLOW_CAVE_GIANT]				-no freq in vanilla-	-cave 1-2-		-not savage-		-not a giant variation, its own creature-		-hunting trainable-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+	[CLUSTER_NUMBER:1:5]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:POPULATION_NUMBER]
+		[CVCT_TARGET:15:30]
+		[CVCT_REPLACEMENT:20:40]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+[SELECT_CREATURE:MOLE_GIANT]							-100 freq in vanilla-	-cave 1-2-		-not savage-		-not a giant variation, its own creature-		-curiousbeast eat and drink-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:OLM_GIANT]								-no freq in vanilla-	-cave 1-2-		-not savage-		-not a giant variation, its own creature-		-large predator-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:RAT_GIANT]								-100 freq in vanilla-	-cave 1-2-		-not savage-		-not a giant variation, its own creature-		-curiousbeast eat and drink-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:POPULATION_NUMBER]
+		[CVCT_TARGET:10:20]
+		[CVCT_REPLACEMENT:20:40]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+	[CLUSTER_NUMBER:1:3]
+
+[SELECT_CREATURE:FISH_HALIBUT]							-no freq in vanilla-	-artic and temperate oceans-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:FISH_OPAH]								-no freq in vanilla-	-tropical and temperate oceans-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:FISH_CARP]								-no freq in vanilla-	-freshwater lake and river-		-not really so dangerous as ye olde carp stories-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+
+***GIANT ANIMAL***
+
+[SELECT_CREATURE:GIANT_BEETLE]							-all main land-		-apparently lacks an attack flag-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:GIANT_FLY]								-all main land-		-apparently lacks an attack flag-		-cluster: 5-10-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:POPULATION_NUMBER]					-more number for more swarm-
+		[CVCT_TARGET:10:20]
+		[CVCT_REPLACEMENT:20:40]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+[SELECT_CREATURE:GIANT_GRASSHOPPER]						-all main land-		-apparently lacks an attack flag in vanilla-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:GIANT_LOUSE]							-all main land-		-apparently lacks an attack flag in vanilla-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:GIANT_MOSQUITO]						-all main land-		-apparently lacks an attack flag in vanilla-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:GIANT_MOTH]							-all main land-		-apparently lacks an attack flag in vanilla-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:GIANT_THRIPS]							-all main land-		-apparently lacks an attack flag in vanilla-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:GIANT_TICK]							-all main land-		-apparently lacks an attack flag in vanilla-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:GIANT_SPARROW]							-flies-		-benign-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:GIANT_LEECH]							-not benign-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:GIANT_LIZARD]							-not benign-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:GIGANTIC SQUID]						-not benign-	-aqautic-	-is gigantic specifically-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:GIANT_CRAB]							-not benign-	-amphibious-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:POPULATION_NUMBER]
+		[CVCT_TARGET:10:20]
+		[CVCT_REPLACEMENT:15:30]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:CLUSTER_NUMBER]
+		[CVCT_TARGET:1:1]
+		[CVCT_REPLACEMENT:1:3]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+

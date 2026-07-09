@@ -1,0 +1,9 @@
+CHANGELOG
+
+1.0.0
+
+- Established a functional frequency distribuition.  80-70-60-50-40-30-20-15.
+	- initial numbers were much lower: 50-45-40-35-30-25-20-15.
+	-lower numbers overall seemed to flatten out the rarity curve too much, resulting in, for instance, biomes full of only animal men.
+- Removed rare domestic spawns on animals such as sheep, dogs, and cats.
+- added a compatibility file to the mod, so that I could just hook pks mod into it and go.  This mod should be loaded after pks mod.

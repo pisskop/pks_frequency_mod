@@ -1,0 +1,522 @@
+creature_pk_vfreq_5_rare
+
+*The purpose of these files are to change the frequencies of all vanilla animals to meet my own standards.*
+*This file is for critters who are still expected to be 'normally' found, but are limited in population due to natural pressures*
+*default is 40 freq*
+
+[OBJECT:CREATURE]
+
+
+***NORMAL ANIMALS***
+
+[SELECT_CREATURE:PLATYPUS]											-freq 10 in vanilla-	-any river-		-specialized amalgomation of various animal archtypes-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:AYE-AYE]											-freq 10 in vanilla-	-tropical wet and dry jungle-		-specialized, and generally defenseless-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:BIRD_KIWI]											-freq 10 in vanilla-	-temperate forest and temperate shrubland-		-specialized, and generally defenseless-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:BIRD_KAKAPO]										-no freq in vanilla-	-specialized, and generally defenseless-		-apparently they have very strong leg muscles-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:KING_COBRA]										-20 freq in vanilla-	-any tropical forest-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:SLOTH]												-10 freq in vanilla-	-any tropical forest-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:BOBCAT]											-5 freq in vanilla-		-many biomes-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:POPULATION_NUMBER]								-jeez why even put the poor things into the game if they never show up and have zero pops-		-probably partially to provide examples/models-
+		[CVCT_TARGET:2:3]
+		[CVCT_REPLACEMENT:8:16]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+[SELECT_CREATURE:ECHIDNA]											-no freq in vanilla-	-temerate forest, temperate plains, desert-		-specialized amalgomation of various animal archtypes-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:GRAY_LANGUR]										-10 freq in vanilla-		-many biomes-	-curious eater/thief-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:JACKAL]											-5 freq in vanilla-			-tropical plains-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:CAVE_BLOB]											-10 freq in vanilla-		-cave 3-		-a slime-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:DINGO]												-5 freq in vanilla-			-most biomes-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:FLOATING_GUTS]										-10 freq in vanilla-		-cave 2 and 3-	-a slime-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:MANDRILL]											-10 freq in vanilla-		-only wet jungle-		-item and food thief-		-can be trained for work-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:CAVE_FLOATER]										-10 freq in vanilla-		-cavern 2 and 3-		-slimes-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:CHEETAH]											-5 freq in vanilla-			-tropical plains-		-fully trainable-		-irl theyre pretty flimsy by african plains standards-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:GOAT]												-no freq in vanilla-		-common domestic-		-no biome or pop data-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+	[BIOME:MOUNTAIN]												-eastern anatolia, for the common goat-
+	[BIOME:DESERT_BADLAND]
+	[BIOME:DESERT_ROCK]
+	[BIOME:ANY_SHRUBLAND]
+	[POPULATION_NUMBER:10:20]
+	[CLUSTER_NUMBER:1:3]
+
+[SELECT_CREATURE:WOLF_ICE]											-10 freq in vanilla-	-tundra and glacier-	-50k size-	-evil-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:POPULATION_NUMBER]
+		[CVCT_TARGET:10:20]
+		[CVCT_REPLACEMENT:15:30]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+[SELECT_CREATURE:LEOPARD]											-5 freq in vanilla-		-some tropical biomes-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:POPULATION_NUMBER]								-if they show up, there should be enough to appreciate, esp with the limit on how many creatures spawn-
+		[CVCT_TARGET:2:3]
+		[CVCT_REPLACEMENT:5:10]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+[SELECT_CREATURE:SHARK_FRILL]										-1 freq in vanilla-		-any ocean-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:FLESH_BALL]										-10 freq in vanilla-	-cave 3-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:GREEN_DEVOURER]									-10 freq in vanilla-	-spawn 1 at a time, over time-	-cave 2 and 3-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:GRIMELING]											-5 freq in vanilla-		-spawn 1 at a time, over time-	-evil-	-most swamps and marshes-	-not sentient-	-made of flesh and blood, but tagged to drop plant matter-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:JAGUAR]											-5 freq in vanilla-		-trainable-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:POPULATION_NUMBER]
+		[CVCT_TARGET:2:3]
+		[CVCT_REPLACEMENT:5:10]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+[SELECT_CREATURE:SHARK_WOBBEGONG_SPOTTED]							-no freq in vanilla-	-temperate and tropical ocean-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:MONITOR_LIZARD]									-no freq in vanilla-	-tropical plains and forest
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:KANGAROO]											-no freq in vanilla-	-temperate plains and desert-	-milkable-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:BIRD_OSTRICH]										-no freq in vanilla-	-temperate savanna/grassland and desert-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:BLIND_CAVE_BEAR]									-10 freq in vanilla-	-cave 1 and 2-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:CAMEL_1_HUMP]										-100 freq in vanilla-	-desert-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:POPULATION_NUMBER]
+		[CVCT_TARGET:15:30]
+		[CVCT_REPLACEMENT:20:40]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+[SELECT_CREATURE:CAMEL_2_HUMP]										-100 freq in vanilla-	-desert-	-common domestic~ish-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:POPULATION_NUMBER]
+		[CVCT_TARGET:15:30]
+		[CVCT_REPLACEMENT:20:40]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+[SELECT_CREATURE:DONKEY]											-no freq in vanilla-	-common domestic-	-no biome, pop, or cluster data-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]						-the correct term for a feral donkey is 'wild-ass'
+	[BIOME:MOUNTAIN]
+	[BIOME:ANY_SHRUBLAND]
+	[BIOME:ANY_DESERT]
+	[POPULATION_NUMBER:10:20]
+	[CLUSTER_NUMBER:1:2]
+
+[SELECT_CREATURE:CROCODILE_SALTWATER]								-5 freq in game-	-predatory-		-egg laying champion-	-3x material value-		-several tropical fresh and saltwater biomes-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:POPULATION_NUMBER]
+		[CVCT_TARGET:5:10]
+		[CVCT_REPLACEMENT:8:16]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+[SELECT_CREATURE:MOOSE]												-no freq in vanilla-	-taiga and temperate forest-	-benign in vanilla-		-got demoted to rare, horse is the largest normal infrequent animal-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:GIRAFFE]											-no freq in vanilla-	-tropical shrubland and savanna-	-benign-	-has horn-	-cluster 3-7-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:FISH_TUNA_BLUEFIN]									-no freq in vanilla-	-any ocean-		-benign-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:FISH_GROUPER_GIANT]								-no freq in vanilla-	-tropical ocean-	-benign-	-an animal with the word giant, not a giant animal-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:FISH_SWORDFISH]									-no freq in vanilla-	-tropical/temperate ocean-	-benign-	-the 'sword' is not something special-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:YAK]												-no freq in vanilla-	-mountains-		-benign-	-common domestic-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:WALRUS]											-benign in vanilla-		-pack of 3-7-		-horn-		-amphibious-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:FISH_MARLIN]										-benign-	-temperate/tropical ocean-	-solitary-		-horn-		-aquatic-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:VORACIOUS_CAVE_CRAWLER]							-no freq in vanilla-	-large predator-	-cave 2-3-		-bd 2-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:ELEPHANT_SEAL]										-no freq in vanilla-	-artic ocean-	-amphibious-	-not benign, nor predatory-		-males are much, much bigger than females-	-5-10 cluster-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:WATER_BUFFALO]										-no freq in vanilla-	-common domestic-	-tropical wetland-	-3-7 packs-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:FISH_STURGEON]										-no freq in vanilla-	-artic/temperate ocean, temperate rivers-	-solitary-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:RUTHERER]											-no freq in vanilla-	-cave 2-3-		-benign-	-3-7 packs-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+
+***GIANT ANIMALS***
+
+
+[SELECT_CREATURE:GIANT_MANTIS]										-markedly has a pop number of 25:50 and is solitary-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:GIANT_RW_BLACKBIRD]								-flies, not benign-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:GIANT_CHAMELEON]									-not benign-		-one of the the most proflific egglayers-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:GIANT_HAMSTER]										-benign-		-solitary-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:GIANT_AXOLOTL]										-not benign-		-solitary-		-are carnivorous-		-highly regenerative-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:GIANT_FLYING_SQUIRREL]								-benign-		-solitary-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:GIANT_WEASEL]										-benign-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:GIANT_BARN_OWL]									-benign, in vanilla-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:GIANT_NAUTILUS]									-aquatic-	-not benign-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:GIANT_LION_TAMARIN]								-benign-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:GIANT_PUFFIN]										-benign-	-wiki: using sticks to scratch themselves indicating that the seabirds have a basic ability to use too-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:GIANT_HEDGEHOG]									-benign-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:GIANT_MINK]										-benign-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:GIANT_KEA]											-not benign-	-highly dangerous-	-food/item thief-	-cluster: 5-10-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:POPULATION_NUMBER]
+		[CVCT_TARGET:15:30]
+		[CVCT_REPLACEMENT:25:50]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+[SELECT_CREATURE:GIANT_KINGSNAKE]									-not benign-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:GIANT_GILA_MONSTER]								-not benign-	-gila monsters typically go after easier prey if possible-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:POPULATION_NUMBER]
+		[CVCT_TARGET:5:10]
+		[CVCT_REPLACEMENT:8:16]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+[SELECT_CREATURE:GIANT_GREAT_HORNED_OWL]							-not benign-	-flies-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:GIANT_SNOWY_OWL]									-benign-	-flies-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:GIANT_HORNBILL]									-benign-	-flies-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:GIANT_MONGOOSE]									-benign-	-meerkats, and other social tunnelers-	-its not unheard of for them to cooperate interspecies with other relatively benign animals-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:GIANT_OPOSSUM]										-benign-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:GIANT_WHITE_STORK]									-benign-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:GIANT_SKUNK]										-benign-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:BIRD_PENGUIN_GIANT]								-benign-		-small packs-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:GIANT_FOX]											-benign-		-solitary-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:GIANT_LOON]										-benign-		-small packs-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:HONEY BADGER, GIANT]								-prone to rage-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:GIANT_RATTLESNAKE]									-not benign-	-venomous-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:GIANT_VULTURE]										-not benign-	-flies-		-food thief-		-cluster 5-10-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:POPULATION_NUMBER]
+		[CVCT_TARGET:15:30]
+		[CVCT_REPLACEMENT:20:40]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+[SELECT_CREATURE:GIANT_MARMOT_HOARY]								-benign in vanilla-	-small packs-		-herbivores-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:GIANT_SWAN]										-benign in vanilla-	-small packs-		-pack of 1-2-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:BADGER, GIANT]										-prone to rage-		-cluster 4-12-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:POPULATION_NUMBER]
+		[CVCT_TARGET:10:20]
+		[CVCT_REPLACEMENT:12:24]									-cluster of 12 prone to rage giant badger is frankly rude lmao-
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+[SELECT_CREATURE:GIANT_COYOTE]										-not benign-	-pack of 2-10-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:CAPYBARA, GIANT]									-not benign-	-pack of 5-10-		-low key ive been most impressed by capybara, out of all Ive read and didnt know, doing this project-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:GIANT_IMPALA]										-benign-	-pack of 5-10-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:GIANT_GOAT_MOUNTAIN]								-benign-	-pack of 1-4-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:GIANT_WILD_BOAR]									-benign in vanilla-		-pack of 5-10-		-horn-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:GIANT_ANACONDA]									-large predator-		-solitary-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:GIANT_DEER]										-benign-		-cluster 1-4-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:GIANT_HARP_SEAL]									-benign-	-cluster 3-7-	-amphibious-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:GIANT_PYTHON]										-not benign-	-not a large predator-		-10:25 pop num-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:POPULATION_NUMBER]
+		[CVCT_TARGET:10:25]
+		[CVCT_REPLACEMENT:8:16]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+[SELECT_CREATURE:GIANT_TAPIR]										-benign-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+
+
+***ANIMAL MEN***
+-by default, 1/2 freq of parent critter in vanilla-
+-not sure if the animal man/giant variations get rebased on the variations im adding or not, leaning no-
+
+
+[SELECT_CREATURE:BEETLE_MAN]										-cannot fly-	-beetles are clumsy fliers irl regardless-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:BROWN_RECLUSE_SPIDER_MAN]							-venomous-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:FIREFLY_MAN]										-glow-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:JUMPING_SPIDER_MAN]
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:BUTTERFLY_MONARCH_MAN]								-flies-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:ROACH_MAN]											-flies-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:SLUG_MAN]											-slower than most, no legs-		-the wiki photo suggests they have tentacles, the raws dont seem to support that-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:SNAIL_MAN]											-has legs-		-has a shell, I think, Id have to check-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:BARK_SCORPION_MAN]									-6 arms-		-a poisonous tail-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:BUSHTIT_MAN]										-flies-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:ORIOLE_MAN]										-flies-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:WREN_MAN]											-flies-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:CARDINAL_MAN]										-flies-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:LEOPARD_GECKO_MAN]									-lizard-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:ANOLE_MAN]											-lizard-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:COCKATIEL_MAN]										-lizard-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:MASKED_LOVEBIRD_MAN]								-lizard-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:BLUEJAY_MAN]										-flier-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:GREEN_TREE_FROG_MAN]								-amphibian-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:GRACKLE_MAN]										-flies-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:PARAKEET_MAN]										-flies-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:LORIKEET_MAN]										-flies-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:MAGPIE_MAN]										-flies-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:MOON_SNAIL_MAN]									-has legs-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:TOAD_MAN]											-amphibious-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:KESTREL_MAN]										-flier-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:CHIPMUNK_MAN]										-mammal-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:SQUIRREL_GRAY_MAN]									-mammal-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:SQUIRREL_RED_MAN]									-mammal-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:STOAT_MAN]											-mammal-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:GREY_PARROT_MAN]									-flier-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:CHINCHILLA_MAN]									-mammal-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:BIRD_CROW]											-flies-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:POND_TURTLE_MAN]									-mammal-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:SKINK_MAN]											-lizard-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:MINK_MAN]											-mammal-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:CUTTLEFISH_MAN]									-aquatic-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:PEREGRINE FALCON MAN]								-flies-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:RAVEN_MAN]											-flies-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:BUZZARD_MAN]										-flies-		-steals food-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:HORSESHOE_CRAB_MAN]								-amhibious-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:OSPREY_MAN]										-flies-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:GROUNDHOG_MAN]										-mammal-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:HARE_MAN]											-mammal-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:ALBATROSS_MAN]										-flies-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:OTTER_MAN]											-amphibious-	-mammal-	-river otter man-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:POPULATION_NUMBER]
+		[CVCT_TARGET:5:10]
+		[CVCT_REPLACEMENT:10:20]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+
+***INTELLIGENT CREATURES***
+
+
+[SELECT_CREATURE:BLENDEC_FOUL]										-5 freq in vanilla-		-unique man-	-dry forests-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:SATYR]												-5 freq in vanilla-		-unique man-	-dry forests-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:NIGHTWING]											-5 freq in vanilla-		-unique man-	-deserts-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:BLIZZARD_MAN]										-5 freq in vanilla-		-unique man-	-glacier and tundra-	-genderless-	-toady wants them made of ice, maybe-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:GNOME_DARK]										-10 freq in vanilla-		-mountains-		-evil-		-intelligent, unique-	-curious drinker-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:GNOME_MOUNTAIN]									-10 freq in vanilla-		-mountains-		-good-		-intelligent, unique-	-curious drinker-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+

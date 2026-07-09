@@ -1,0 +1,567 @@
+creature_pk_vfreq_6_mythical
+
+*The purpose of these files are to change the frequencies of all vanilla animals to meet my own standards.*
+*This file is for critters that are dangerous, very large, or infrequently found due to their specialized nature*
+*pack predators, large prey animals, specialized animals such as kangaroo, playpus, etc.*
+*default is 30 freq*
+
+[OBJECT:CREATURE]
+
+
+***NORMAL ANIMALS***
+
+
+[SELECT_CREATURE:GIBBON_BILOU]										-5 freq in vanilla-		-only wet jungle-		-All gibbons are visual variations of the gibbon, ftmp-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:GIBBON_BLACK_CRESTED]								-5 freq in vanilla-		-only wet jungle-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:GIBBON_BLACK_HANDED]								-5 freq in vanilla-		-only wet jungle-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:GIBBON_GRAY]										-5 freq in vanilla-		-only wet jungle-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:GIBBON_PILEATED]									-5 freq in vanilla-		-only wet jungle-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:GIBBON_SILVERY]									-5 freq in vanilla-		-only wet jungle-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:GIBBON_WHITE_BROWED]								-5 freq in vanilla-		-only wet jungle-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:GIBBON_WHITE_HANDED]								-5 freq in vanilla-		-only wet jungle-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:SPIDER_MONKEY]										-10 freq in vanilla-	-dry/wet jungle-		-gibbons kind of ruined it for all small monkies, lol-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:GIBBON_SIAMANG]									-5 freq in vanilla-		-only wet jungle-		-larger than most gibbons-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:CREEPING_EYE]										-5 freq in vanilla-		-cave 3-				-a metric TON of these things locally, as much as vermin-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:CLUSTER_NUMBER]								-lets really lean into the creep factor-
+		[CVCT_TARGET:10:20]
+		[CVCT_REPLACEMENT:20:40]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+[SELECT_CREATURE:OCELOT]											-5 freq in vanilla-		-tropical grass/savanna/mangrove/forest-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:POPULATION_NUMBER]
+		[CVCT_TARGET:2:3]
+		[CVCT_REPLACEMENT:8:16]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+[SELECT_CREATURE:STRANGLER]											-5 freq in vanilla-		-only wet jungle-		-40k in size, in mod has lvl 4 wrestling-	-LARGE-PREDATOR-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:POPULATION_NUMBER]
+		[CVCT_TARGET:10:20]											-I dont think they NEED need a buff, I want them to have a buff-
+		[CVCT_REPLACEMENT:15:30]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+[SELECT_CREATURE:BONOBO]											-5 freq in vanilla-			-tropical shrubland and wet jungle-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:CHIMPANZEE]										-5 freq in vanilla-			-tropical shrubland and wet jungle-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:PIG]												-no freq in vanilla-	-no pop or biome data-	-common domestic-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+	[BIOME:ANY_SAVANNA]
+	[BIOME:ANY_GRASSLAND]
+	[BIOME:ANY_SHRUBLAND]											-taken right off the boar, pigs are boars without the attituide and tusks, and a smaller size-
+	[BIOME:ANY_FOREST]
+	[BIOME:ANY_WETLAND]
+	[POPULATION_NUMBER:15:30]
+	[CLUSTER_NUMBER:5:10]
+
+[SELECT_CREATURE:ALPACA]											-no freq in vanilla-		-common domestic-		-no biome or pop data-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+	[BIOME:MOUNTAIN]												-mountainous areas of SA-
+	[BIOME:SHRUBLAND_TEMPERATE]
+	[POPULATION_NUMBER:10:20]
+	[CLUSTER_NUMBER:1:7]
+
+[SELECT_CREATURE:LLAMA]												-no freq in vanilla-		-common domestic-		-no biome or pop data-		-were apparently used a pack animals, hauling ore from mines, before horses became common in SA-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+	[BIOME:MOUNTAIN]												-mountainous areas of SA-
+	[BIOME:SHRUBLAND_TEMPERATE]
+	[POPULATION_NUMBER:10:20]
+	[CLUSTER_NUMBER:4:9]
+
+[SELECT_CREATURE:ORANGUTAN]										-5 freq in vanilla-			-wet jungle-		-20-50 pop locally-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:FISH_COELACANTH]								-no freq in vanilla-		-aquatic-	-tropical ocean-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:BEAR_SLOTH]									-5 freq in vanilla-		-tropical forest-		-curiousbeast drinker/eater-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:POPULATION_NUMBER]
+		[CVCT_TARGET:2:3]
+		[CVCT_REPLACEMENT:5:10]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+[SELECT_CREATURE:GORILLA]										-5 freq in vanilla-	-wet jungle, any tropical marsh-	-trainable-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:BEAR_POLAR]									-2 freq in vanilla-		-glacier/tundea-	-steals food/drink-		-trainable-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:POPULATION_NUMBER]
+		[CVCT_TARGET:2:3]
+		[CVCT_REPLACEMENT:3:6]
+
+[SELECT_CREATURE:SASQUATCH]										-1 freq in vanilla-		-taiga and temperate forest-	-savage-	-bd2-	-not intelligent-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:POPULATION_NUMBER]
+		[CVCT_TARGET:5:10]
+		[CVCT_REPLACEMENT:9:18]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:CLUSTER_NUMBER]
+		[CVCT_TARGET:1:1]
+		[CVCT_REPLACEMENT:1:6]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+[SELECT_CREATURE:YETI]										-1 freq in vanilla-		-mountain glacier tundra-	-savage-	-bd2-	-not intelligent-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:POPULATION_NUMBER]
+		[CVCT_TARGET:5:10]
+		[CVCT_REPLACEMENT:9:18]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:CLUSTER_NUMBER]
+		[CVCT_TARGET:1:1]
+		[CVCT_REPLACEMENT:1:2]								-yeti are repainted sasquatch, the reasoning is that yeti are usually painted as solitary whereas sasquatch can sometimes be a whole tribe/pack-
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+[SELECT_CREATURE:UNICORN]									-benign-	-good-	-temperate/tropical forest and shrubland-		-4x value-		-horn-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:NARWHAL]									-no freq in vanilla-	-benign-	-artic ocean-	-horn-	-aquatic-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:HIPPO]										-no freq in vanilla-	-benign in vanilla-	-3-7 cluster-		-tropical river and lake-		-amphibious-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:RHINOCEROS]								-no freq in vanilla-	-benign in vanilla-		-tropical plains-	-horn-		-3-7 packs-		-war trainable-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:SHARK_GREAT_WHITE]							-no freq in vanilla-	-temperate/tropical ocean-		-solitary-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:FISH_RAY_MANTA]							-no freq in vanilla-	-tropical ocean-		-solitary-			-these seem oversized, idk-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:JABBERER]									-no freq in vanilla-	-cave 2-3-		-solitary-			-large predator-	-trainable-		-4x value-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:ELEPHANT]									-no freq in vanilla-	-tropical forest/shrubland-		-trainable-		-benign-	-3-7 packs-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:ORCA]										-10 freq in vanilla-	-any ocean-		-benign-		-curiously, not even a carnivore-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:SPERM_WHALE]								-10 freq in vanilla-	-any ocean-		-benign-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:SHARK_BASKING]								-no freq in vanilla-	-temperate ocean-		-benign-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:CAVE_DRAGON]								-5 freq in vanilla-		-cave 3-		-predator-		-evil-		-immortal-		-trainable-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:SHARK_WHALE]								-no freq in vanilla-	-tropical ocean-		-benign-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:FISH_SUNFISH_OCEAN]							-no freq in vanilla-	-temperate/tropical ocean-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+
+***GIANT ANIMALS***
+
+[SELECT_CREATURE:GIANT_ADDER]									-not benign-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:GIANT_COPPERHEAD_SNAKE]						-not benign-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:GIANT_CAPUCHIN]								-not benign-	-food/item thief-	-cluster of 5-10-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:GIANT_EAGLE]									-benign-		-flies-			-it isnt a booted eagle, it seems more like a blad eagle, or even a snake eagle-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:GIANT_IGUANA]									-not benign-	-is a carnivore, irl is a herbivore-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:GIANT_BLACK_MAMBA]								-not benign-	-venomous-	-prone to rage-		-10 to 25 pop size-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:GIANT_OCTOPUS]									-not benign-	-beak counts as horn apparently-	-can squirt ink and hide: as one action-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:GIANT_PANGOLIN]								-benign-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:RED PANDA, GIANT]								-benign-	-10 to 20 pop-	-bamboo diet-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:GIANT_MACAQUE_RHESUS]							-not benign-	-food/item thief-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:GIANT_DESERT_TORTOISE]							-benign-	-shell-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:GIANT_COATI]									-not benign-	-food/item thief-		-a south american raccoon, basically-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:GIANT_RACCOON]									-not benign-	-food/item thief-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:GIANT_ARMADILLO, GIANT]						-benign-		-solitary-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:GIANT_BUSHMASTER]								-not benign-		-venomous-		-solitary-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:GIANT_KOALA]
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:GIANT_BEAVER]									-benign-	-pack: 3-10-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:GIANT_GAZELLE]									-benign-	-pack: 5-10-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:CLUSTER_NUMBER]
+		[CVCT_TARGET:5:10]
+		[CVCT_REPLACEMENT:8:16]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:POPULATION_NUMBER]
+		[CVCT_TARGET:15:30]
+		[CVCT_REPLACEMENT:25:50]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+[SELECT_CREATURE:GIANT_WOLVERINE]								-benign-	-solitary-		-prone to rage-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:GIANT_LYNX]									-not benign-	-solitary-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:POPULATION_NUMBER]
+		[CVCT_TARGET:2:3]
+		[CVCT_REPLACEMENT:3:6]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+[SELECT_CREATURE:GIANT_EMU]									-benign in vanilla-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:GIANT_WOLF]								-predatory-		-solitary-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:POPULATION_NUMBER]
+		[CVCT_TARGET:10:20]
+		[CVCT_REPLACEMENT:15:30]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:CLUSTER_NUMBER]
+		[CVCT_TARGET:1:1]				-cmon, if its a giant wolf with the basal prediliction of a normal wolf, itd be in a pack, even if it were a smaller one.-	-males, especially younger ones, often drift alone or in small groups between other pack's ranges-
+		[CVCT_REPLACEMENT:1:6]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+[SELECT_CREATURE:GIANT_CASSOWARY]						-benign in vanilla-	-solitary-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:GIANT_IBEX]							-benign-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:GIANT_SPONGE]							-benign-	-aquatic-	-immobile-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:GIANT_COUGAR]							-not benign-	-not large predator in vanilla-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:POPULATION_NUMBER]
+		[CVCT_TARGET:2:3]
+		[CVCT_REPLACEMENT:3:6]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+[SELECT_CREATURE:GIANT_HYENA]							-large predator-	-cluster 5-15-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:POPULATION_NUMBER]
+		[CVCT_TARGET:10:20]
+		[CVCT_REPLACEMENT:20:40]						-up to 3 healthy waves-
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+[SELECT_CREATURE:GIANT_OTTER]							-benign in vanilla-		-amphibious-	-cluster 1-4-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:GIANT_WARTHOG]							-benign in vanilla-		-3-7 cluster-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:GIANT_BEAR_BLACK]						-large predator-	-solitary-		-food and drink thief-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:POPULATION_NUMBER]
+		[CVCT_TARGET:2:3]
+		[CVCT_REPLACEMENT:3:6]							-there definitely arguments against this, 2:3 is probably more 'realistic'.  But getting a breeding pair andor getting a caravan smashed by one is real too-
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+[SELECT_CREATURE:GIANT_SNAPPING_TURTLE]					-not benign-		-25:50 pop num-		-amphibious-	-shell-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:PANDA, GIGANTIC]						-not benign-		-bamboo diet-		-2x base value, plus 2x more for giant status-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:POPULATION_NUMBER]
+		[CVCT_TARGET:2:3]
+		[CVCT_REPLACEMENT:3:6]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+[SELECT_CREATURE:GIGANTIC TORTOISE]						-benign-		-retracts into shell-		-5-10 cluster-	-shell-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:GIANT_LION]							-predators-		-trainable-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:CLUSTER_NUMBER]
+		[CVCT_TARGET:1:3]
+		[CVCT_REPLACEMENT:1:6]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:POPULATION_NUMBER]
+		[CVCT_TARGET:5:10]
+		[CVCT_REPLACEMENT:6:12]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+[SELECT_CREATURE:GIANT_MUSKOX]							-benign in vanilla-		-packs of 1-4-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:POPULATION_NUMBER]
+		[CVCT_TARGET:15:30]
+		[CVCT_REPLACEMENT:12:24]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+[SELECT_CREATURE:GIANT_ALLIGATOR]							-large predator-		-packs of 1-3-		-amphibious-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:GIANT_LEOPARD_SEAL]						-not benign-		-solitary-		-amphibious-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+
+***ANIMAL MEN***
+
+
+[SELECT_CREATURE:DAMSELFLY_MAN]									-flier-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:DRAGONFLY_MAN]									-flier-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:MANTIS_MAN]									-flier-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:RW_BLACKBIRD_MAN]								-flier-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:PEACH-FACED_LOVEBIRD_MAN]						-flier-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:CHAMELEON_MAN]									-lizard-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:HAMSTER_MAN]									-mammal-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:AXOLOTL_MAN]									-amphibious-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:FLYING_SQUIRREL_MAN]							-mammal-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:WEASEL_MAN]									-mammal-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:BARN_OWL_MAN]									-flies-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:NAUTILUS_MAN]									-flies-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:LION_TAMARIN_MAN]								-mammal-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:PUFFIN_MAN]									-flies-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:HEDGEHOG_MAN]									-mammal-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:KEA_MAN]										-flies-		-food/item thief-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:KINGSNAKE_MAN]									-lizard-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:GILA_MONSTER_MAN]								-lizard-		-venomus-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:GREAT_HORNED_OWL_MAN]							-flies-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:SNOWY_OWL_MAN]									-flies-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:HORNBILL_MAN]									-flies-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:MONGOOSE_MAN]									-mammal-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:OPOSSUM_MAN]									-mammal-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:WHITE_STORK_MAN]								-flies-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:PENGUIN MAN]									-cannot fly-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:SKUNK_MAN]										-mammal-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:OCTOPUS_MAN]									-aquatic-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:FOX_MAN]										-mammal-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:LOON_MAN]										-flies-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:RATTLESNAKE_MAN]								-lizard-	-venomous-	-no legs-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:HONEY BADGER MAN]								-mammal-	-prone to rage-		-packs of 5-10-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:POPULATION_NUMBER]							-whats better than one group of raging honey badgers?  2-3 groups of raging honey badgers!-
+		[CVCT_TARGET:5:10]
+		[CVCT_REPLACEMENT:10:20]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+[SELECT_CREATURE:VULTURE_MAN]									-flies-	-food thief-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:POPULATION_NUMBER]							-whats better than one group?  2-3-
+		[CVCT_TARGET:5:10]
+		[CVCT_REPLACEMENT:10:20]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+[SELECT_CREATURE:MARMOT_HOARY_MAN]								-mammal-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:SWAN_MAN]										-flies-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:BADGER MAN]									-mammal-	-prone to rage-		-packs of 5-10-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:POPULATION_NUMBER]							-whats better than one group of raging honey badgers?  2-3 groups of raging honey badgers!-
+		[CVCT_TARGET:5:10]
+		[CVCT_REPLACEMENT:10:20]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+[SELECT_CREATURE:COYOTE_MAN]									-mammal-	-packs of 2-10-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:POPULATION_NUMBER]
+		[CVCT_TARGET:5:10]
+		[CVCT_REPLACEMENT:10:20]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+[SELECT_CREATURE:WOMBAT_MAN]									-mammal-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:SNAPPING_TURTLE_MAN]							-lizard-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:CAPYBARA MAN]									-mammal-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:AARDVARK_MAN]
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:IBEX_MAN]
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:POPULATION_NUMBER]
+		[CVCT_TARGET:5:10]
+		[CVCT_REPLACEMENT:10:20]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+[SELECT_CREATURE:GOAT_MOUNTAIN_MAN]
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:WILD_BOAR_MAN]
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:POPULATION_NUMBER]							-spawns in packs of 5-10, a pop of 5-10 means they show up once and probably never again-
+		[CVCT_TARGET:5:10]
+		[CVCT_REPLACEMENT:10:20]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+[SELECT_CREATURE:ANACONDA_MAN]									-no legs-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:PANDA MAN]										-not restricted to bamboo-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:CLUSTER_NUMBER]							-reducing their spawn cluster rather than upping their pop size-
+		[CVCT_TARGET:5:10]
+		[CVCT_REPLACEMENT:1:6]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+[SELECT_CREATURE:DEER_MAN]
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:HARP_SEAL_MAN]
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:PYTHON_MAN]
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:TAPIR_MAN]
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:GIANT_TIGER]								-predator-	-trainable-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:CLUSTER_NUMBER]
+		[CVCT_TARGET:2:3]
+		[CVCT_REPLACEMENT:3:6]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
+
+
+***CONSTRUCTIONS***
+-these are made of usually inorganic material, typically have no gender, and generally considered to not be natural, although their origins are never even hinted at-
+
+
+[SELECT_CREATURE:ELEMENTMAN_FIRE]							-1 freq in vanilla-		-magma, unto cave 3-	-15:30 pops-
+	[APPLY_CREATURE_VARIATION:C_FREQ_7_EASTEREGG]
+	[CV_CONVERT_TAG]
+		[CVCT_MASTER:UNDERGROUND_DEPTH]
+		[CVCT_TARGET:3:4]									-they can climb right out of their volcano, or at least thats the intent-
+		[CVCT_REPLACEMENT:0:4]
+		[CV_NEW_TAG:SAVAGE]
+	[APPLY_CURRENT_CREATURE_VARIATION]
+
