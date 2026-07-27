@@ -224,16 +224,10 @@ creature_pk_vfreq_5_rare
 [SELECT_CREATURE:GIANT_NAUTILUS]									-aquatic-	-not benign-
 	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
 
-[SELECT_CREATURE:GIANT_LION_TAMARIN]								-benign-
-	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
-
 [SELECT_CREATURE:GIANT_PUFFIN]										-benign-	-wiki: using sticks to scratch themselves indicating that the seabirds have a basic ability to use too-
 	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
 
 [SELECT_CREATURE:GIANT_HEDGEHOG]									-benign-
-	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
-
-[SELECT_CREATURE:GIANT_MINK]										-benign-
 	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
 
 [SELECT_CREATURE:GIANT_KEA]											-not benign-	-highly dangerous-	-food/item thief-	-cluster: 5-10-
@@ -460,9 +454,6 @@ creature_pk_vfreq_5_rare
 [SELECT_CREATURE:SKINK_MAN]											-lizard-
 	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
 
-[SELECT_CREATURE:MINK_MAN]											-mammal-
-	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
-
 [SELECT_CREATURE:CUTTLEFISH_MAN]									-aquatic-
 	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
 
@@ -498,25 +489,4 @@ creature_pk_vfreq_5_rare
 		[CVCT_REPLACEMENT:10:20]
 	[APPLY_CURRENT_CREATURE_VARIATION]
 
-
-***INTELLIGENT CREATURES***
-
-
-[SELECT_CREATURE:BLENDEC_FOUL]										-5 freq in vanilla-		-unique man-	-dry forests-
-	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
-
-[SELECT_CREATURE:SATYR]												-5 freq in vanilla-		-unique man-	-dry forests-
-	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
-
-[SELECT_CREATURE:NIGHTWING]											-5 freq in vanilla-		-unique man-	-deserts-
-	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
-
-[SELECT_CREATURE:BLIZZARD_MAN]										-5 freq in vanilla-		-unique man-	-glacier and tundra-	-genderless-	-toady wants them made of ice, maybe-
-	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
-
-[SELECT_CREATURE:GNOME_DARK]										-10 freq in vanilla-		-mountains-		-evil-		-intelligent, unique-	-curious drinker-
-	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
-
-[SELECT_CREATURE:GNOME_MOUNTAIN]									-10 freq in vanilla-		-mountains-		-good-		-intelligent, unique-	-curious drinker-
-	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
 

@@ -201,29 +201,53 @@ creature_pk_vfreq_1_ubiquitous
 
 
 ***COMMON DOMESTICS w/no biome data***
+-Domestic animals will be given biome data and a reasonably common frequency, unless they are utter staples or would never survivie in the wild.  Dogs/cats and sheep being examples of the former/latter.-
+-common domestics with no biome data appear to always be available-
 
 
--SELECT_CREATURE:CAT-											-no freq in vanilla-	-no biome in vanilla-	-feral cats would be reasonably somewhat common, but I dont want to flood the game with innane spawns-
-	-APPLY_CREATURE_VARIATION:C_FREQ_7_EASTEREGG-
-	-BIOME:ALL_MAIN-
+-SELECT_CREATURE:CAT-
+
+-SELECT_CREATURE:DOG-
 	
--SELECT_CREATURE:SHEEP-											-no freq in vanilla-	-common domestic-	-no pop or biome data-		-sheep are not particularly viable outside of human livestocking-
+-SELECT_CREATURE:SHEEP-
 
--SELECT_CREATURE:MULE-											-no freq in vanilla-	-common domestic-	-no pop or biome data-		-all mules are male in the game-
+-SELECT_CREATURE:MULE-										-all mules are male in the game-
 
--SELECT_CREATURE:COW-											-while some cows probably could go feral and be fine, the average american image of 'cow' as a huge uddered female grazer, wouldnt.-		-something like a longhorn probably would be fine-
+-SELECT_CREATURE:COW-										-while some cows probably could go feral and be fine, the average image of 'cow' as a black and white, huge uddered female grazer, wouldnt.-	-something like a longhorn probably would be fine-
 
--SELECT_CREATURE:DOG-													-no freq in vanilla-		-no biome in vanilla-	-common domestic-	-no cluster or pop data-
-	-APPLY_CREATURE_VARIATION:C_FREQ_4_INFREQUENT-
-	-BIOME:ALL_MAIN-
-	-POPULATION_NUMBER:10:20-
-	-CLUSTER_NUMBER:1:8-
 
--SELECT_CREATURE:BIRD_GUINEAFOWL-								-is given wild data by me in this mod-
 
--SELECT_CREATURE:BIRD_CHICKEN-									-is given wild data by me in this mod-
+***Common Domestics with Biome Data, whether vanilla or the mod***
+-Some animals are not considered 'common domestic' but are still very easy to tame and/or can be used as pack animals.  These tend to be made available if the entity happens to settle close to a biome they live in-
 
--SELECT_CREATURE:DONKEY-										-is given wild data by me in this mod-
 
--SELECT_CREATURE:GOAT-											-is given wild data by me in this mod-
+-SELECT_CREATURE:RABBIT-
+
+-SELECT_CREATURE:BIRD_DUCK-
+
+-SELECT_CREATURE:BIRD_GOOSE-
+
+-SELECT_CREATURE:CAVY-
+
+-SELECT_CREATURE:BIRD_GUINEAFOWL-		-mod given biome-
+
+-SELECT_CREATURE:BIRD_CHICKEN-			-mod given biome-
+
+-SELECT_CREATURE:BIRD_PEAFOWL_BLUE-
+
+-SELECT_CREATURE:BIRD_TURKEY-
+
+-SELECT_CREATURE:REINDEER-
+
+-SELECT_CREATURE:GOAT-
+
+-SELECT_CREATURE:DONKEY-				-mod given biome-
+
+-SELECT_CREATURE:WATER_BUFFALO-
+
+-SELECT_CREATURE:PIG-					-mod given biome-
+
+-SELECT_CREATURE:ALPACA-				-mod given biome-
+
+-SELECT_CREATURE:LLAMA-					-mod given biome-
 

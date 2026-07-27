@@ -12,66 +12,53 @@ creature_pk_vfreq_8_easteregg_man
 -very rare base animals would result in absurdly rare animal men, in many cases the animal men in question is probably more viable than the base animal-
 
 
-
 [SELECT_CREATURE:ADDER_MAN]										-no legs-		-venomous-		-this one might be a substantial nerf in frequency.-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
 
+[SELECT_CREATURE:MINK_MAN]										-mammal-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
 
 [SELECT_CREATURE:COPPERHEAD_SNAKE_MAN]							-no legs-		-venomous-		-this one might be a substantial nerf in frequency.-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
 
-
 [SELECT_CREATURE:PLATYPUS MAN]									-amphibious-		-venomous kicks on male-	-lays eggs-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
-
 
 [SELECT_CREATURE:AYE-AYE_MAN]									-mammal-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
 
-
 [SELECT_CREATURE:KIWI MAN]										-cannot fly-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
-
 
 [SELECT_CREATURE:KAKAPO_MAN]									-cannot fly-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
 
-
 [SELECT_CREATURE:CAPUCHIN_MAN]									-mammal-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
-
 
 [SELECT_CREATURE:EAGLE_MAN]										-flies-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
 
-
 [SELECT_CREATURE:IGUANA_MAN]									-lizard-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
-
 
 [SELECT_CREATURE:BLACK_MAMBA_MAN]								-lizard-	-venomous-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
 
-
 [SELECT_CREATURE:PANGOLIN_MAN]									-mammal-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
-
 
 [SELECT_CREATURE:RED PANDA MAN]									-mammal-	-can eat anything, rather than only bamboo- 	-will still only spawn in places w/bamboo-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
 
-
 [SELECT_CREATURE:MACAQUE_RHESUS_MAN]							-mammal-	-steals items and food-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
-
 
 [SELECT_CREATURE:DESERT_TORTOISE_MAN]							-lizard-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
 
-
 [SELECT_CREATURE:COATI_MAN]										-mammal-	-steals item and food-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
-
 
 [SELECT_CREATURE:BEAR_BLACK_MAN]								-food and drink thief-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
@@ -84,42 +71,32 @@ creature_pk_vfreq_8_easteregg_man
 [SELECT_CREATURE:KING_COBRA_MAN]								-lizard-	-venomous-		-no legs-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
 
-
 [SELECT_CREATURE:SLOTH_MAN]										-mammal-	-really slow-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
-
 
 [SELECT_CREATURE:RACCOON_MAN]									-mammal-	-item and food thief-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
 
-
 [SELECT_CREATURE:ARMADILLO MAN]									-mammal-	-cannot roll up?  should test, the animal variation might have lost shell-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
-
 
 [SELECT_CREATURE:BOBCAT_MAN]									-mammal-	-low pop cap of 10-		-more common in vanilla than normal bobcats-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
 
-
 [SELECT_CREATURE:BUSHMASTER_MAN]								-lizard-	-venomous-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
-
 
 [SELECT_CREATURE:SPIDER_MONKEY_MAN]								-mammal-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
 
-
 [SELECT_CREATURE:PORCUPINE_MAN]									-mammal-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
-
 
 [SELECT_CREATURE:ECHIDNA_MAN]									-mammal-		-can roll up into ball-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
 
-
 [SELECT_CREATURE:KOALA_MAN]										-mammal-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
-
 
 [SELECT_CREATURE:GRAY_LANGUR_MAN]								-mammal-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
@@ -132,14 +109,11 @@ creature_pk_vfreq_8_easteregg_man
 [SELECT_CREATURE:JACKAL_MAN]									-mammal-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
 
-
 [SELECT_CREATURE:BEAVER_MAN]									-mammal-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
 
-
 [SELECT_CREATURE:DINGO_MAN]										-mammal-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
-
 
 [SELECT_CREATURE:GAZELLE_MAN]									-mammal-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
@@ -156,7 +130,6 @@ creature_pk_vfreq_8_easteregg_man
 [SELECT_CREATURE:MANDRILL_MAN]									-mammal-		-item and food thief-		-can be trained for work-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
 
-
 [SELECT_CREATURE:WOLVERINE_MAN]									-mammal-		-prone to rage-			-clusters of 1-5-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
 	[CV_CONVERT_TAG]
@@ -168,14 +141,11 @@ creature_pk_vfreq_8_easteregg_man
 [SELECT_CREATURE:LYNX_MAN]										-mammal-		-medium sized cats in general are rare-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
 
-
 [SELECT_CREATURE:OCELOT_MAN]									-mammal-		-medium sized cats in general are rare-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
 
-
 [SELECT_CREATURE:BIRD_EMU]										-cannot fly-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
-
 
 [SELECT_CREATURE:WOLF_MAN]										-cluster of 2-10-		-this represents a rather large buff to these in particular-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
@@ -188,30 +158,23 @@ creature_pk_vfreq_8_easteregg_man
 [SELECT_CREATURE:CASSOWARY_MAN]									-cannot fly-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
 
-
 [SELECT_CREATURE:CHEETAH_MAN]									-mammal-			-can be trained for work-	-should have large predator tag still-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
-
 
 [SELECT_CREATURE:LEOPARD_MAN]									-mammal-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
 
-
 [SELECT_CREATURE:SPONGE_MAN]									-can move, unlike their base creature-		-any lake/ocean/river-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
-
 
 [SELECT_CREATURE:COUGAR_MAN]
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
 
-
 [SELECT_CREATURE:HYENA_MAN]
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
 
-
 [SELECT_CREATURE:JAGUAR_MAN]								-smaller than its base animal-		-trainable-		-several biomes-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
-
 
 [SELECT_CREATURE:KANGAROO_MAN]								-smaller than its base animal-		-milkable-		-temperate plains and desert-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
@@ -224,14 +187,11 @@ creature_pk_vfreq_8_easteregg_man
 [SELECT_CREATURE:OSTRICH MAN]								-cannot fly-		-5-10 locally, 5-10 cluster, unlike the other animal creatures I think theyd be more rare-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
 
-
 [SELECT_CREATURE:MONITOR_LIZARD_MAN]
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
 
-
 [SELECT_CREATURE:SLOTH_BEAR_MAN]						-I think the animal man version would be more viable-	-both are supposed to be mean little buggers-		-curiousbeast drinker/eater-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
-
 
 [SELECT_CREATURE:WARTHOG_MAN]
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
@@ -276,14 +236,11 @@ creature_pk_vfreq_8_easteregg_man
 [SELECT_CREATURE:TIGER_MAN]
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
 
-
 [SELECT_CREATURE:MUSKOX_MAN]
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
 
-
 [SELECT_CREATURE:ELK_MAN]
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
-
 
 [SELECT_CREATURE:ALLIGATOR_MAN]						-amphibious-	-large predator-	-cluster: 1-3-	-smaller than its base animal-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
@@ -296,10 +253,8 @@ creature_pk_vfreq_8_easteregg_man
 [SELECT_CREATURE:LEOPARD_SEAL_MAN]					-benign-	-smaller than its base animal-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
 
-
 [SELECT_CREATURE:BEAR_POLAR_MAN]					-large predator-	-smaller than its base animal-		-food drink thief-		-2-10 cluster, 5-10 pop-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
-
 
 [SELECT_CREATURE:CAMEL_1_HUMP_MAN]					-benign-	-3-7 packs-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
@@ -350,16 +305,13 @@ creature_pk_vfreq_8_easteregg_man
 	[APPLY_CURRENT_CREATURE_VARIATION]
 
 [SELECT_CREATURE:NARWHAL MAN]							-benign-	-5-10 cluster-	-aquatic-	-horn-
-	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN
-]
+	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
 
 [SELECT_CREATURE:HIPPO_MAN]								-benign-	-5-10 cluster-	-aquatic-	-horn-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
 
-
 [SELECT_CREATURE:WALRUS_MAN]							-benign-	-1-5 cluster-	-aquatic-	-horn-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
-
 
 [SELECT_CREATURE:RHINOCEROS_MAN]						-benign in vanilla-	-5-10 cluster-	-horn-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
@@ -380,3 +332,4 @@ creature_pk_vfreq_8_easteregg_man
 
 [SELECT_CREATURE:SPERM_WHALE_MAN]					-benign-	-1-5 cluster-	-aquatic-
 	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
+

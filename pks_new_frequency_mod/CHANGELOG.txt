@@ -7,3 +7,8 @@ CHANGELOG
 	-lower numbers overall seemed to flatten out the rarity curve too much, resulting in, for instance, biomes full of only animal men.
 - Removed rare domestic spawns on animals such as sheep, dogs, and cats.
 - added a compatibility file to the mod, so that I could just hook pks mod into it and go.  This mod should be loaded after pks mod.
+
+1.0.1.
+
+- Flattened the tiers a little, to reduce the higher end frequencies and allow the lower end to spawn more often.
+- Added a comprehensive list of domesticated animals in the ubiquitous tier file.

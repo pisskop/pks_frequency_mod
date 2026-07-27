@@ -96,9 +96,6 @@ creature_pk_vfreq_3_common
 ***Normal Animals***
 
 
-[SELECT_CREATURE:MINK]									-very small-
-	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
-
 [SELECT_CREATURE:WEASEL]								-very small-
 	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
 
@@ -385,4 +382,20 @@ creature_pk_vfreq_3_common
 		[CVCT_TARGET:1:1]
 		[CVCT_REPLACEMENT:1:3]
 	[APPLY_CURRENT_CREATURE_VARIATION]
+
+
+***INTELLIGENT CREATURES***
+
+
+[SELECT_CREATURE:TROLL]													-no freq in vanilla-	-intelligent-	-evil-		-honestly, as just a wild animal theyre unremarkable-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:PLUMP_HELMET_MAN]										-20 freq in vanilla-	-intelligent-	-shame of shames that there is just no way to recruit them-		-cant talk-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:GORLAK]												-25 freq in vanilla-	-intelligent-	-shame of shames that there is just no way to recruit them-		-good-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:MANERA]												-10 freq in vanilla-	-intelligent-	-evil-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
 

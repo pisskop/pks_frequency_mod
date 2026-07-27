@@ -2,61 +2,215 @@ creature_pkmod_compatibility
 
 This file defines the creatures added by pks mod, so that they dont throw errors when not using that mod in conjunction with this mod.
 It is intended to have no effect when not using both mods.
+If you use both, this one should be loaded after pks lite mod.
+
+-Since all giant variations of cavern animals in vanilla are 'unique species' and have no base creature, giant versions of exclusively underground creatures I add will get knocked down 3 tiers instead of the normal 2 and have the savage tag removed-
+-The rules in the cave are somewhat different than the surface-
 
 [OBJECT:CREATURE]
 
+***Irregular Creatures***
 
-[CREATURE:KAIJU]						-megabeast-
-[CREATURE:TYRANNUS]						-semi megabeast-
-[CREATURE:IT]							-semi megabeast-
-[CREATURE:HOLISTIC]						-unique demon-
+-SELECT_CREATURE:KAIJU-							-megabeast-
+-SELECT_CREATURE:TYRANNUS-						-semi megabeast-
+-SELECT_CREATURE:IT-							-semi megabeast-
+-SELECT_CREATURE:HOLISTIC-						-unique demon-
+-SELECT_CREATURE:DAEGOL-						-night hunter-
+-SELECT_CREATURE:LICH_SCIENTIST-				-night hunter/experimentor-
+-SELECT_CREATURE:WYVERN-						-semi megabeast-
 
-[CREATURE:GOBLIN_PK]					-entity creature-
-[CREATURE:ELF_PK]						-entity creature-
-[CREATURE:MERLOCK]						-entity creature-
-[CREATURE:KLAXXON]						-entity creature-
-[CREATURE:ALTAINEN]						-entity creature-
+-SELECT_CREATURE:GOBLIN_PK-						-entity creature-
+-SELECT_CREATURE:ELF_PK-						-entity creature-
+-SELECT_CREATURE:MERLOCK-						-entity creature-
+-SELECT_CREATURE:KLAXXON-						-entity creature-
+-SELECT_CREATURE:ALTAINEN-						-entity creature-
 
-[CREATURE:BOMB]							-does not exist-
-[CREATURE:SCORPION_DESERT_GIANT]		-does not exist-
-[CREATURE:ELPIDAEMON]					-does not exist-
+-SELECT_CREATURE:BOMB-							-does not exist-
+-SELECT_CREATURE:SCORPION_DESERT_GIANT-			-does not exist-
+-SELECT_CREATURE:STAR_DAEMON-					-does not exist-
+-SELECT_CREATURE:GRUESOME_DEMISE-				-does not exist-		-a transformation target to erase bodies-
+-SELECT_CREATURE:GNAT_FUNGUS_MAGGOT-			-does not exist-		-a 'live birthed' summoned creature-
 
 
-[CREATURE:CACCODEMON]								-cavern3, can bite through armor-
+***VERMIN***
+
+[SELECT_CREATURE:BAT_LEAF]									-tiny fruit bat-
+	[APPLY_CREATURE_VARIATION:C_FREQ_2_EVERYWHERE]
+
+[SELECT_CREATURE:BAT_MEGA]									-small fruit bat-
+	[APPLY_CREATURE_VARIATION:C_FREQ_2_EVERYWHERE]
+
+[SELECT_CREATURE:ISOPOD_PILLBUG]							-tiny rot bug-
+	[APPLY_CREATURE_VARIATION:C_FREQ_2_EVERYWHERE]
+
+[SELECT_CREATURE:SPRINGTAIL]								-tiny, massively numerous arthropod-
+	[APPLY_CREATURE_VARIATION:C_FREQ_2_EVERYWHERE]
+
+[SELECT_CREATURE:HARVESTMAN]								-daddy long legs-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:SPIDER_CAMEL]								-desert vermin-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:SCORPION_BOOK]								-stinging cave vermin-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:MILLIPEDE_DRAGON]							-cyanide on skin cave vermin-		-infrequent is currently the rarest vermin tier-
 	[APPLY_CREATURE_VARIATION:C_FREQ_4_INFREQUENT]
 
-[CREATURE:SHRAT]									-very large, quite strong-
-	[APPLY_CREATURE_VARIATION:C_FREQ_7_EASTEREGG]
+[SELECT_CREATURE:MILLIPEDE_COMMON]							-cave benign-
+	[APPLY_CREATURE_VARIATION:C_FREQ_2_EVERYWHERE]
 
-[CREATURE:DIONAEA]									-slow moving tropical wet-
+[SELECT_CREATURE:CENTIPEDE_COMMON]							-cave hunter-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:BEETLE_CAVE]								-cave vermin-
+	[APPLY_CREATURE_VARIATION:C_FREQ_2_EVERYWHERE]
+
+[SELECT_CREATURE:WORM_VELVET]								-good vermin-
+	[APPLY_CREATURE_VARIATION:C_FREQ_4_INFREQUENT]
+
+[SELECT_CREATURE:CRICKET_CAVE]								-cave vermin-
+	[APPLY_CREATURE_VARIATION:C_FREQ_2_EVERYWHERE]
+
+
+***Mundane Creatures***
+
+
+[SELECT_CREATURE:TIGER_SIBERIAN]							-cold weather tiger-
+	[APPLY_CREATURE_VARIATION:C_FREQ_4_INFREQUENT]
+
+[SELECT_CREATURE:MAMMOTH]									-tundra elephant-
 	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
 
-[CREATURE:MAMMOTH]									-mammoth-
+[SELECT_CREATURE:GIANT_WOLF_SPIDER]							-giant version of a wolf spider-			-no base creature-
 	[APPLY_CREATURE_VARIATION:C_FREQ_4_INFREQUENT]
 
-[CREATURE:BOAR_SLUGSNOUT]							-boar that spits lead-
-	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+[SELECT_CREATURE:ISOPOD_PILLBUG_SHELLED]					-mesodillo, benign armored cave bug-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
 
-[CREATURE:WILL-O-THE-WISP]							-marsh sleepy high dodge-
-	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+[SELECT_CREATURE:CRAB_CAVE]									-somewhat numerous cave crab, 18k size-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
 
-[CREATURE:INNOCENT_DEVIL]							-gremlin but more, and anywhere-
-	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+[SELECT_CREATURE:SALAMANDER_SPOTTED]						-small cave lizard thats easy to domesticate and is a vermin hunter-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
 
-[CREATURE:INNOCENT_DEVIL_NOT]						-big gremlin but also anywhere-
-	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
-
-[CREATURE:BEAR_GRUMBLE]								-snorlax/slumberling-
-	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
-
-
-
-[CREATURE:FAIRY_GIANT]								-fully sentient flying good-
+[SELECT_CREATURE:SALAMANDER_ROTWEED]						-cave dog-sized ambush amphibian-
 	[APPLY_CREATURE_VARIATION:C_FREQ_4_INFREQUENT]
 
-[CREATURE:GNAT_BLOOD_GIANT]							-raccoon sized mosquito, runs in packs-
+[SELECT_CREATURE:FROG_GOLIATH]								-tropical wet large predator-
+	[APPLY_CREATURE_VARIATION:C_FREQ_4_INFREQUENT]
+
+[SELECT_CREATURE:LIZARD_WORM]								-vermin cave burrower-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+
+***Fantastical Creatures***
+
+
+[SELECT_CREATURE:CACCODEMON]								-cavern3, can bite through armor-
+	[APPLY_CREATURE_VARIATION:C_FREQ_4_INFREQUENT]
+
+[SELECT_CREATURE:SHRAT]										-very large, quite strong-
+	[APPLY_CREATURE_VARIATION:C_FREQ_7_EASTEREGG]
+
+[SELECT_CREATURE:DIONAEA]									-slow moving tropical wet-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:BOAR_SLUGSNOUT]							-boar that spits lead-
 	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
 
-[CREATURE:LOBSTER_CAVE_GIANT]						-big cave lobster-
+[SELECT_CREATURE:WILL-O-THE-WISP]							-marsh sleep inducing high dodge-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:INNOCENT_DEVIL]							-gremlin but more, and anywhere-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:INNOCENT_DEVIL_NOT]						-big gremlin but also anywhere-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:BEAR_GRUMBLE]								-savage good snorlax/slumberling-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:STARFISH_CAVE]								-benign amphibious syndrome starfish-
 	[APPLY_CREATURE_VARIATION:C_FREQ_4_INFREQUENT]
+
+[SELECT_CREATURE:DIVE_SPIDER]								-cave ambush predator-
+	[APPLY_CREATURE_VARIATION:C_FREQ_4_INFREQUENT]
+
+[SELECT_CREATURE:CRAB_LONG]									-cave evil carnivore-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:GNAT_FUNGAL]								-cave savage bloodsucker creature summoner-
+	[APPLY_CREATURE_VARIATION:C_FREQ_3_COMMON]
+
+[SELECT_CREATURE:AMPHISBAENA]								-2 head mythical chicken, benign-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+
+***Variantions of other creatures***
+
+
+[SELECT_CREATURE:FAIRY_GIANT]								-fully sentient flying good-
+	[APPLY_CREATURE_VARIATION:C_FREQ_4_INFREQUENT]
+
+[SELECT_CREATURE:GNAT_BLOOD_GIANT]							-raccoon sized mosquito, runs in packs-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:LOBSTER_CAVE_GIANT]						-big cave lobster-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:ISOPOD_PILLBUG_GIANT]						-giant benign shell bug-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:ISOPOD_PILLBUG_MAN]						-pillbug man cant climb-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:SPRINGTAIL_GIANT]							-benign everywhere bug-
+	[APPLY_CREATURE_VARIATION:C_FREQ_4_INFREQUENT]
+
+[SELECT_CREATURE:HARVESTMAN_GIANT]							-big daddy long legs-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:SPIDER_CAMEL_GIANT]						-large predator camel spider-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:SCORPION_BOOK_GIANT]						-cave tail-less scorpion-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:SCORPION_BOOK_MAN]							-cave tail-less scorpion-		-animal men variation are 3 tiers rarer and still savage-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:MILLIPEDE_COMMON_GIANT]					-cave benign curls up-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:MILLIPEDE_DRAGON_GIANT]					-cave benign cyanide spikes-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:CENTIPEDE_COMMON_GIANT]					-cave hunter-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:BEETLE_CAVE]								-cave benign-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:WORM_VELVET_GIANT]							-good savage hunter-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:WORM_VELVET_MAN]							-good savage hunter-
+	[APPLY_CREATURE_VARIATION:C_FREQ_8_EASTEREGG_MAN]
+
+[SELECT_CREATURE:CRICKET_CAVE_GIANT]						-cave cricket-	-not explicitly a carnivore, though theres definitely an arguement for adding a carnivorous cricket-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:CRICKET_CAVE_MAN]							-cave cricket man-
+	[APPLY_CREATURE_VARIATION:C_FREQ_5_RARE]
+
+[SELECT_CREATURE:SALAMANDER_ROTWEED_GIANT]					-cave ambush predator-	-base critter not vermin-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:FROG_GOLIATH_GIANT]						-~1.75mill ambibian hunter-	-base critter not vermin-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
+
+[SELECT_CREATURE:LIZARD_WORM_GIANT]							-2 legged lizard hunter-
+	[APPLY_CREATURE_VARIATION:C_FREQ_6_MYTHICAL]
 
